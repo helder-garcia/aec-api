@@ -38,8 +38,9 @@
 #    development.
 # 
 ################################################
-
+config/env
 config/local.js
+config/connections.js
 
 
 
