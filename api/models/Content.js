@@ -1,20 +1,20 @@
 /**
-* Lesson.js
+* Content.js
 *
 * @description :: TODO: You might write a short summary of how this model works and what it represents here.
 * @docs        :: http://sailsjs.org/#!documentation/models
 */
 
 module.exports = {
-  connection: 'localDiskDb',
+  tableName: 'pk9gh_content',
+  migrate: 'safe',
   autoCreatedAt: false,
   autoUpdatedAt: false,
   attributes: {
+	id: 'integer',
         title: 'string',
-        state: 'string',
-        duration: 'string',
-	contentId: 'integer'
+	introtext: 'text',
+	fulltext: 'text'
   }
-
 };
 
