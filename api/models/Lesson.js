@@ -10,11 +10,10 @@ module.exports = {
   autoCreatedAt: false,
   autoUpdatedAt: false,
   attributes: {
-        title: 'string',
-        state: 'string',
-        duration: 'string',
-	contentId: 'integer'
+	title: 'string',
+	duration: 'string',
+	contentId: 'integer',
+	categoryId: 'integer'
   }
-
 };
 

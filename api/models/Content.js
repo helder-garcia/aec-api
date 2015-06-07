@@ -12,7 +12,7 @@ module.exports = {
   autoUpdatedAt: false,
   attributes: {
 	id: 'integer',
-        title: 'string',
+    title: 'string',
 	introtext: 'text',
 	fulltext: 'text'
   }
